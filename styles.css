@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+}
+
+h1, h2 {
+    margin: 0.5rem 0;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+form, #upload-section, #analysis-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"], button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+canvas {
+    max-width: 100%;
+    margin-top: 1rem;
+}

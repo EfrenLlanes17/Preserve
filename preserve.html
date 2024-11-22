@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preserve - Minimize Food Waste</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Preserve</h1>
+        <p>Track your food data and minimize waste.</p>
+    </header>
+
+    <main>
+        <section id="account-section">
+            <h2>Create Account</h2>
+            <form id="account-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Create Account</button>
+            </form>
+        </section>
+
+        <section id="upload-section" class="hidden">
+            <h2>Upload Food Data</h2>
+            <input type="file" id="spreadsheet" accept=".csv">
+            <button id="upload-btn">Upload and Analyze</button>
+        </section>
+
+        <section id="analysis-section" class="hidden">
+            <h2>Financial Analysis</h2>
+            <div id="charts">
+                <canvas id="chart1"></canvas>
+                <canvas id="chart2"></canvas>
+            </div>
+            <div id="insights"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Preserve. All rights reserved.</p>
+    </footer>
+</body>
+</html>
